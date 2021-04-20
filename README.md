@@ -15,3 +15,10 @@ After signing up for the app you can add ten different people that are in the sa
 ---
 
 ## How it works 
+
+There are many different components in play to get the information from instagram, processed and then displayed on the App. Follow the instructions in each folder to see more explanation about that component and also so that you could rebuild the app for yourself:
+
+1- DataBase builder : Before anything else is done we need to create a SQL database so that the data could be gathered and used for the different parts of the pipeline
+
+2- Scraper Scripts: These scripts scrape Instagram (Public and business profiles only! For privacy private accouunts profiles are skipped by the scrapers) and gather information such as Bio, Number of Posts, Number of followings and Number of followers and sends them to the database. Also to find new people, the followings of people that are in the same niche as ours are scraped and added to database.
+
