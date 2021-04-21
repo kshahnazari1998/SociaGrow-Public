@@ -1,0 +1,6 @@
+1- Name of Bot (put None if its only scrapping user data)
+2- Instagram Username (put None if its only scrapping user data)
+3- Instagram Password (put None if its only scrapping user data)
+4- Types of Scraper ( 1- UserAdmin 2- User 3 - Follower 4-premiumuser)
+5- true to show browser of false to not display.
+6- Number of Vpns
